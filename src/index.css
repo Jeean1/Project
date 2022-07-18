@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.App {
+  background-color: black;
+  height: 47.1rem;
+  display: flex;
+}
+
+
+.userListContainer {
+  width: 65%;
+  height: 46rem;
+  overflow: scroll;
+  background-image: url(https://c.tenor.com/MOaDdK_RVaAAAAAd/winter-vtuber-fondo-winter-vtuber.gif);
+  background-repeat: no-repeat;
+  background-size: 131%;
+  background-position: center;
+}
+
+.ulStyle {
+  text-align: center;
+  list-style: none;
+}
+
+
+
+.cardStyle {
+  background-color: rgba(128, 128, 128, 0.715);
+  text-align: initial;
+  padding: 3% 5%;
+  margin: 5% auto;
+  width: 60%;
+  height: 11rem;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  color: white;
+
+}
+
+.cardStyle h3 {
+  margin-bottom: 3%;
+}
+
+.divButtom {
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divButtom button {
+  margin: 0 3%;
+  background-color: rgba(128, 128, 128, 0);
+  width: 10%;
+  height: 3rem;
+  border-radius: 50%;
+
+}
+
+.divButtom button:hover {
+  cursor: pointer;
+  background-color: rgb(77, 77, 77);
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.formContainer {
+  width: 35%;
+  height: 100%;
+  color: white;
+}
+
+.form {
+  width: 80%;
+  height: 57%;
+  margin: 25% auto;
+  background-color: rgba(128, 128, 128, 0.715);
+  border-radius: 5%;
+
+
+
+}
+
+.form h1{
+  padding: 5% 33%;
+}
+
+.form label {
+  margin: 0 5%;
+}
+
+.form input {
+
+  width: 30%;
+  height: 2rem;
+  margin: 0 1%;
+
+}
+
+.form button {
+	padding: 2% 40%;
+	margin: 1% 3%;
+	height: 2rem;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+
+
+.divInput {
+  margin: 5% 0;
+}
